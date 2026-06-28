@@ -397,3 +397,19 @@ tr {
     width: 17%;
 
 }
+
+/* Flag by CrossWorth*/
+.faction-logo{
+    width:180px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+}
+
+.faction-desc{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    padding-left:10px;
+}
