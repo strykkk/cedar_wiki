@@ -167,6 +167,13 @@ tr {
 .menu_tr_1:nth-child(even) {
   background-color: rgb(41, 41, 41);
 }
+.gun_stats{
+
+}
+
+.gun_stats:nth-child(even) {
+  background-color: rgb(29, 29, 29);
+}
 
 .td_stat_info
 {
