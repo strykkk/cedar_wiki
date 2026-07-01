@@ -39,7 +39,7 @@ body
     margin-bottom: 0.5vw;
     margin-top: 0.5vw;
     text-align: left;
-      text-shadow:0.2vw 0.2vw 1vw rgb(196, 196, 0),0.2vw 0.2vw 1vw rgb(148, 148, 0);
+      text-shadow:1px 1px 7px rgb(196, 196, 0), 1px 1px 7px rgb(148, 148, 0);
         font-family: IDK, sans-serif;
 }
 
@@ -124,7 +124,7 @@ tr {
     color: rgb(196, 196, 0);
     text-decoration: none;
 
-    font-size: 120%;
+    font-size: 100%;
 }
 
 .menu
