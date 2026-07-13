@@ -1,0 +1,46 @@
+=============================================================
+|
+| Kedr wiki contributor 
+|
+=============================================================
+
+name (discord #)
+> contribution
+
+
+bread (#_stryk_)
+> main dev
+
+CrossWorth (#nemesisrezv)
+> vehicle page in it's entirety 
+> ennemie page in it's entirety
+> faction list page rework
+
+Nana (#lynguyenomo)
+> proof reading help
+> proof reading/tl of the story chapters
+
+slome (#leemtl)
+> tl/proof reading help
+> tl of Koubel & Teresa
+
+Asmodeus (#asmodeus7884)
+> Access to the archive
+> writing of the sub faction description and past history (pioneer & CTU)
+
+Font used for the first page of the wiki :
+=============================================================
+P.Font Series No.       : 1013
+Type                    : TrueType
+Family Name             : Arcade
+Style Name              : Arcade Normal
+                          Arcade Interlaced
+                          Arcade Rounded
+Author                  : Yuji Adachi
+Description             : Copyright (C)1997-2003 Yuji Adachi
+Support URL             : http://www.9031.com/
+=============================================================
+
+All assets used in this wiki belong to the Kedr dev team 
+
+special thanks to the Cn wiki(https://wiki.biligame.com/kedrgame/首页) for letting us use their assets 
