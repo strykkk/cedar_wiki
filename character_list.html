@@ -5,6 +5,7 @@
 		<title>Kedr wiki</title>
 		<link rel="stylesheet" type="text/css" href="wiki.css"/>
 		<script type="text/javascript" src="wiki.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.1.0/tablesort.min.js"></script>
 		<meta http-equiv="X-UA-compatible" content="IE=edge" >
         <link rel="icon" href="Codename_Cedar_Cover_Image.webp">
 	</head>
@@ -24,14 +25,18 @@
             <td class="menu_td" style="width: 80%;"><a class="menu_sub" href="Faction\JointDT\JointDT.html">Joint Development Region</a></td>
             </tr>
 			</table>
-        <table class="menu">
-            <tr class="menu_tr_1">
-                <td class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
-                <td class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></td>
+        <table class="menu" id="JDR">
+            <thead>
+            <tr class="menu_tr_1" >
+                <td data-sort-method="none" class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></th>
             </tr>
+            </thead>
+
+            <tbody>
 
             <tr class="menu_tr_1">
             <td class="menu_td"><div style="height: 5vw; background-image: url('character/Elena/icon.png'); " class="IMG_CH"></div></td>
@@ -188,6 +193,14 @@
             <td class="menu_td"><a class="menu_sub" href="class/sniper/sniper.html">Sniper</a></td>
             </tr> 
 
+                                                        <tr class="menu_tr_1"> 
+            <td class="menu_td"><div style="height: 5vw; background-image: url('character/Natsuki/icon.png'); " class="IMG_CH"></div></td>
+            <td class="menu_td"><a class="menu_sub" href="character/Natsuki/Natsuki.html">Natsuki</a></td>
+            <td class="menu_td"><a class="menu_sub" href="">Joint Development Region</a></td>
+                        <td class="menu_td"><a class="menu_sub" href="">Eastern Project preparatory group</a></td>
+            <td class="menu_td"><a class="menu_sub" href="class/big_gun/big_gun.html">Heavy Weapon Specialist</a></td>
+            </tr> 
+
                                             <tr class="menu_tr_1"> 
             <td class="menu_td"><div style="height: 5vw; background-image: url('character/Teresa/icon.png'); " class="IMG_CH"></div></td>
             <td class="menu_td"><a class="menu_sub" href="character/Teresa/Teresa.html">Teresa</a></td>
@@ -216,7 +229,7 @@
             <td class="menu_td"><a class="menu_sub" href="">Rebecca's Film Crew</a></td>
             <td class="menu_td"><a class="menu_sub" href="class/big_gun/big_gun.html">Heavy Weapon Specialist</a></td>
             </tr> 
-
+</tbody>
         </table>
 <br><br><br>
 
@@ -227,14 +240,18 @@
             </tr>
 			</table>
 
- <table class="menu">
-            <tr class="menu_tr_1">
-                <td class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
-                <td class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></td>
+        <table class="menu" id="Ruvila">
+            <thead>
+            <tr class="menu_tr_1" >
+                <td data-sort-method="none" class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></th>
             </tr>
+            </thead>
+
+            <tbody>
 
             <tr class="menu_tr_1">
                 <td class="menu_td"><div style="height: 5vw; background-image: url('character/Gelphist/icon.png'); " class="IMG_CH"></div></td>
@@ -251,6 +268,7 @@
             <td class="menu_td"><a class="menu_sub" href="Faction/Republic_of_Ruvila/SubGroup/Golden_Fleece_Guard_Unit.html">Golden Fleece Guard Unit</a></td>
             <td class="menu_td"><a class="menu_sub" href="class/commander/commander.html">Commander</a></td>
             </tr>
+            </tbody>
 </table>
 <br><br><br>
         </table>
@@ -263,14 +281,18 @@
             </tr>
 			</table>
 
- <table class="menu">
-            <tr class="menu_tr_1">
-                <td class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
-                <td class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></td>
+        <table class="menu" id="Entent">
+            <thead>
+            <tr class="menu_tr_1" >
+                <td data-sort-method="none" class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></th>
             </tr>
+            </thead>
+
+            <tbody>
 
             <tr class="menu_tr_1">
                 <td class="menu_td"><div style="height: 5vw; background-image: url('character/Bella/icon.png'); " class="IMG_CH"></div></td>
@@ -292,7 +314,7 @@
             <td class="menu_td"><a class="menu_sub" href="character/Manprit/Manprit.html">Manprit</a></td>
             <td class="menu_td"><a class="menu_sub" href="">Republic of Bharat </a></td>
             <td class="menu_td"><a class="menu_sub" href="Faction/EntenteOrg/SubGroup/Multi_national_force_ruvila.html">Multi-National Force Ruvila</a></td>
-            <td class="menu_td"><a class="menu_sub" href="">[UNKNOWN]</a></td>
+            <td class="menu_td"><a class="menu_sub" href="class/supporter/supporter.html">Supporter</a></td>
             </tr>
                                                             <tr class="menu_tr_1">
                                                     <td class="menu_td"><div style="height: 5vw; background-image: url('character/Qingfang/icon.png'); " class="IMG_CH"></div></td>
@@ -340,6 +362,8 @@
             <td class="menu_td"><a class="menu_sub" href="class/scout/scout.html">Scout</a></td>
             </tr>
 
+            </tbody>
+
 </table>
 <br><br><br>
         </table>
@@ -352,15 +376,18 @@
             </tr>
 			</table>
 
- <table class="menu">
-
-   <tr class="menu_tr_1">
-                <td class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
-                <td class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></td>
-                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></td>
+        <table class="menu" id="Zarab">
+            <thead>
+            <tr class="menu_tr_1" >
+                <td data-sort-method="none" class="menu_td menu_td_1" style="width:10%"><a class="menu_sub" >Photo</a></td>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:30%"><a class="menu_sub" >Name</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Nationality</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Affiliation</a></th>
+                <th role="columnheader" class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" href="class/class_list.html">Class</a></th>
             </tr>
+            </thead>
+
+            <tbody>
 
             <tr class="menu_tr_1">
             <td class="menu_td"><div style="height: 5vw; background-image: url('character/Duduhana/icon.png'); " class="IMG_CH"></div></td>
