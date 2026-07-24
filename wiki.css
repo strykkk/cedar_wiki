@@ -271,6 +271,18 @@ tr {
 }
 
 
+.Sensitive
+{
+    filter: blur(4px);
+
+}
+
+.Sensitive:hover
+{
+    filter: blur(0px);
+
+}
+
 
 
 /* Vehicle by CrossWorth */
