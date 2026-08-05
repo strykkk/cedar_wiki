@@ -288,17 +288,27 @@ tr {
 /* Vehicle by CrossWorth */
 
 .card{
-    width:250px;
+    width:220px;
     background-color: rgb(29, 29, 29);
     color:white;
     border-radius:8px;
     border: 2px solid rgb(82, 82, 82);
     overflow:hidden;
     position:relative;
+    text-decoration:none;
+}
+
+.card-blank{
+    width:220px;
+    border-radius:8px;
+    border: 2px solid rgb(82, 82, 82, 0%);
+    overflow:hidden;
+    position:relative;
+    text-decoration:none;
 }
 
 .card-image{
-    height:200px;
+    height:175px;
     position:relative;
 
 }
@@ -328,11 +338,13 @@ tr {
     display:flex; 
     gap:30px; 
     padding:30px; 
+    padding-bottom:0px;
+    background-color:rgb(50, 50, 50, 50%);
 
 }
 
 .card-image{
-    height:220px;
+    height:175px;
     position:relative;
 }
 
