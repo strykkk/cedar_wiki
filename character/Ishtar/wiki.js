@@ -1,8 +1,6 @@
 let CH_base = document.getElementById("1");
 let CH_Full = document.getElementById("2");
 let CH_img = document.getElementById("3");
-let CH_ALT = document.getElementById("5");
-let CH_ALT_FULL = document.getElementById("6");
 
 let SKILL_ACT_but = document.getElementById("10");
 let SKILL_P1_but = document.getElementById("11");
@@ -22,17 +20,6 @@ CH_base.addEventListener("click", function (e) {
 
 CH_Full.addEventListener("click", function (e) {
     document.getElementById("3").style.backgroundImage = "url('IMG2.png')";
-
-})
-
-
-CH_ALT.addEventListener("click", function (e) {
-    document.getElementById("3").style.backgroundImage = "url('IMG4.png')";
-
-})
-
-CH_ALT_FULL.addEventListener("click", function (e) {
-    document.getElementById("3").style.backgroundImage = "url('IMG5.png')";
 
 })
 
