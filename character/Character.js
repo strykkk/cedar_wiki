@@ -41,23 +41,23 @@ SKILL_P2_but.addEventListener("click", function (e) {
 })
 
 CH_base.addEventListener("click", function (e) {
-    document.getElementById("3").style.backgroundImage = "url('IMG.png')";
+    document.getElementById("3").src = "IMG.png";
 
 })
 
 CH_Full.addEventListener("click", function (e) {
-    document.getElementById("3").style.backgroundImage = "url('IMG2.png')";
+    document.getElementById("3").src = "IMG2.png";
 
 })
 
 
 CH_ALT.addEventListener("click", function (e) {
-    document.getElementById("3").style.backgroundImage = "url('IMG4.png')";
+    document.getElementById("3").src = "IMG4.png";
 
 })
 
 CH_ALT_FULL.addEventListener("click", function (e) {
-    document.getElementById("3").style.backgroundImage = "url('IMG5.png')";
+    document.getElementById("3").src = "IMG5.png";
 
 })
 
