@@ -61,4 +61,9 @@ CH_ALT_FULL.addEventListener("click", function (e) {
 
 })
 
+CH_BAT.addEventListener("click", function (e) {
+    document.getElementById("3").src = "IMG3.png";
+
+})
+
 
