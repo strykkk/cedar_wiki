@@ -156,27 +156,38 @@
                 </td>
                 
                 <td class="menu_td menu_td_1 IMG_text"
-                    style="width:50%; border:0px; background-image:url(IMG.png); vertical-align:top;">
+                    style="width:50%; border:0px; vertical-align:top;">
 
-                    <a href="IMG.png" target="_blank" style="display:block; width:100%; height:100%; text-decoration: none;">
+                    <table class="menu" style="border:0px; font-size:100%;">
+                        <tr>
+                            <td class="td_stat_info" style="font-weight:bold; text-align:center;">
+                                <a class="menu_sub" id="1" href="#">
+                                    [BASE]
+                                </a>
+                            </td>
 
-                        <table class="menu" style="border:0px; font-size:100%;">
-                            <tr>
-                                <td class="td_stat_info" style="font-weight:bold; text-align:center;">
-                                    <a class="menu_sub" href="IMG.png" target="_blank">
-                                        [BASE]
-                                    </a>
-                                </td>
+                            <td class="td_stat_info" style="font-weight:bold; text-align:center;">
+                                <a class="menu_sub" id="2" href="#">
+                                    [AFFECTION SKIN]
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
 
-                                <td class="td_stat_info" style="font-weight:bold; text-align:center;">
-                                    <a class="menu_sub" href="IMG2.png" target="_blank">
-                                        [AFFECTION SKIN]
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-
+                    <a id="imageLink" href="IMG.png" target="_blank"
+                    style="display:block; text-decoration:none;">
+                        <img id="3" src="IMG.png" style="display:block; width:100%;">
                     </a>
+
+                    <script>
+                        const img = document.getElementById("3");
+                        const link = document.getElementById("imageLink");
+
+                        setInterval(function () {
+                            link.href = img.src;
+                        }, 100);
+                    </script>
+
                 </td>
             </tr>
 
@@ -394,29 +405,6 @@
             </tr>
 
         </table>
-
-
-
-
-
-        <br>
-
-        <div class="menu_element" style="margin: 0px;">
-        <table class="menu table_w_but" >
-            <tr class="menu_tr_1 text">
-                <td class="menu_td_2" ><input type="button" class="button_CH" value="Base"  id="1" ></button></td>
-                <td class="menu_td_2" ><input type="button" class="button_CH" value="Affection skin"  id="2" ></button></td>
-            </tr>
-
-        </table>
-
-        <table class="menu table_w_but" style="height: 40vw;">
-            <tr class="menu_tr_1 text">
-                <td class="menu_td menu_td_1" style=" border: 0px; text-align: center; " ><img src="IMG.png" style="height: 40vw;" id="3"> </td>
-            </tr>
-
-        </table>
-        </div>
         
 	</body>
 </html>
