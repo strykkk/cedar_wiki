@@ -181,10 +181,11 @@ tr {
 
 .td_stat_info
 {
-    width: 25%; 
+     
     padding-top:2vh; 
     padding-bottom:1vh;
     text-align: left;
+    color: rgb(196, 196, 0);
 
 }
 
