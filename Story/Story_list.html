@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color:rgb(29, 29, 29);">
 	<head>
 		<meta charset="utf-8" />
 		<title>Kedr wiki</title>
@@ -9,29 +9,41 @@
         <link rel="icon" href="..\Codename_Cedar_Cover_Image.webp">
 	</head>
 	<body>
-        <table class="menu" >
-        <tr class="menu_tr_1">
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="padding-left: 0.2vw;">Back to main page :</a></td>
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" href="../index.html">[Main page]</a></td>
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" ></a><td>
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" ></a><td></td>
-        </tr>
+        <img src="../main screen ui/border.png" style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; padding: 0; border: 0; border-radius: 0; pointer-events: none; z-index: 5;">
+
+        <table class="menu" style="position: fixed; border: none;">
+            <br>
+            <tr class="menu_tr_1">
+                <td class="td_stat_info"> <a class="Name hover_text" style="margin-left: 7vh; font-size: 3.5vh;" href="../index.html">[ Main page ]</a></td>
+                <td class="td_stat_info"> <a class="Name hover_text" style="margin-left: 7vh; font-size: 3.5vh;" href="#Main">[ MAIN STORY ]</a></td>
+                <td class="td_stat_info"> <a class="Name hover_text" style="margin-left: 7vh; font-size: 3.5vh;" href="#Side">[ SIDE STORY ]</a></td>
+                <td class="td_stat_info"> <a class="Name hover_text" style="margin-left: 7vh; font-size: 3.5vh;" href="#Event">[ EVENT STORY ]</a></td>
+            </tr>
         </table>
 
-              <table class="menu">
-            <tr class="menu_tr_1" >
-            <td class="td_stat_info" style="width: 25%; text-align: center"><a class="Name" style="text-decoration: none; ;" href="#Main" >[Main Story]</a></td>
-            <td class="td_stat_info" style="width: 25%; text-align: center"><a class="Name" style="text-decoration: none;" href="#Event">[Event Story]</a></td>
-            </tr>
-		</table>
+        <br>
+        <br>
+        <br>    
 
-		<table class="menu" id="Main">
+        <div class="menu" style="position: fixed; text-align: left; width: 27%; border: none; ">
+            <table>
+                <tr style="background-color: rgb(29, 29, 29); padding-right: 5vh;">
+                    <td style="width: 25%; padding-bottom:1vh;"> 
+                        <a class="Name" style="margin-left: 6vh; font-size: 3.5vh;">=================================================================================</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+
+		<table class="menu" id="Main" style="border: none;">
             <tr class="menu_tr_1">
-            <td class="menu_td" style="width: 80%;"><a class="menu_sub" >Main Story</a></td>
+            <td class="menu_td" style="width: 80%;"><a class="Name" style="font-size: 3.5vh;">[ MAIN STORY ]</a></td>
             </tr>
 		</table>
 
-       <table class="menu" style="text-align: left;">
+       <table class="menu" style="text-align: left; border: none;">
     <!-- Chapter 0 -->
             <tr class="menu_tr_1">
                 <td rowspan="2" class="menu_td"
@@ -46,17 +58,17 @@
 
                 <td colspan="2" class="menu_td" >
                     <div style="display:flex; flex-direction:column; padding-left: 10px;" >
-                            <span style="font-size:24px; color:#c9c443; font-family:futura_bold; text-align: left;">
+                            <span style="font-size:24px; color:#c9c443; text-align: left;">
                               Chapter 00 - Prologue: Open the Time Capsule
                             </span>
                         <br>
-                        <a class="menu_sub" href="Main_Story/0-1_Story.html">- 0-1 Prologue</a>
+                        <a class="menu_sub" href="Main_Story/0-1_Story.html">[ 0-1 Prologue ]</a>
                         <br>
-                        <a class="menu_sub" href="Main_Story/0-2_Story.html">- 0-2 Prologue</a>
+                        <a class="menu_sub" href="Main_Story/0-2_Story.html">[ 0-2 Prologue ]</a>
                         <br>
-                        <a class="menu_sub" href="Main_Story/0-3_Story.html">- 0-3 Prologue</a>
+                        <a class="menu_sub" href="Main_Story/0-3_Story.html">[ 0-3 Prologue ]</a>
                         <br>
-                        <a class="menu_sub" href="Main_Story/0-4_Story.html">- 0-4 Prologue</a>
+                        <a class="menu_sub" href="Main_Story/0-4_Story.html">[ 0-4 Prologue ]</a>
                         <br>
                     </div>
                 </td>
@@ -65,7 +77,7 @@
         </table>
 
     <!-- Chapter 1 -->
-       <table class="menu" style="text-align: left;">
+       <table class="menu" style="text-align: left; border: none;">
             <tr class="menu_tr_1">
                 <td rowspan="2" class="menu_td"
                     style="width:300px; padding-top: 15px; padding-bottom: 15px; background-color:rgb(82, 82, 82, 50%);">
@@ -76,7 +88,7 @@
                 <td class="menu_td" >
                     <div style="display:flex; flex-direction:column; padding-left: 10px;" >
                         <a href="JointDT/JointDT.html" style="text-decoration: none;">
-                            <span style="font-size:24px; color:#c9c443; font-family:futura_bold; text-align: left;" >
+                            <span style="font-size:24px; color:#c9c443; text-align: left;" >
                                 Chapter 01 - A Star Name Nox
                             </span>
                         </a>
@@ -91,7 +103,7 @@
         </table>
 
     <!-- Chapter 2 -->
-       <table class="menu" style="text-align: left;">
+       <table class="menu" style="text-align: left; border: none;">
             <tr class="menu_tr_1">
                 <td rowspan="2" class="menu_td"
                     style="width:300px; padding-top: 15px; padding-bottom: 15px; background-color:rgb(82, 82, 82, 50%);">
@@ -103,7 +115,7 @@
                 <td class="menu_td" >
                     <div style="display:flex; flex-direction:column; padding-left: 10px;" >
                         <a href="JointDT/JointDT.html" style="text-decoration: none;">
-                            <span style="font-size:24px; color:#c9c443; font-family:futura_bold; text-align: left;" >
+                            <span style="font-size:24px; color:#c9c443; text-align: left;" >
                                 Chapter 02 - Yearning For Change
                             </span>
                         </a>
@@ -118,7 +130,7 @@
         </table>
 
     <!-- Chapter 3 -->
-       <table class="menu" style="text-align: left;">
+       <table class="menu" style="text-align: left; border: none;">
             <tr class="menu_tr_1">
                 <td rowspan="2" class="menu_td"
                     style="width:300px; padding-top: 15px; padding-bottom: 15px; background-color:rgb(82, 82, 82, 50%);">
@@ -130,7 +142,7 @@
                 <td class="menu_td" >
                     <div style="display:flex; flex-direction:column; padding-left: 10px;" >
                         <a href="JointDT/JointDT.html" style="text-decoration: none;">
-                            <span style="font-size:24px; color:#c9c443; font-family:futura_bold; text-align: left;" >
+                            <span style="font-size:24px; color:#c9c443; text-align: left;" >
                                 Chapter 03 - [Placeholder]
                             </span>
                         </a>
@@ -144,13 +156,14 @@
             </tr>
         </table>
 
-        <table class="menu">
+    <!-- Event Story -->
+        <table class="menu" style="border: none;">
             <tr class="menu_tr_1">
-            <td class="menu_td" style="width: 80%;"><a class="menu_sub" >Event Story</a></td>
+            <td class="menu_td" style="width: 80%;"><a class="Name" style="font-size: 3.5vh;">[ EVENT STORY ]</a></td>
             </tr>
 		</table>
 
-        <table class="menu" style="text-align: left;" id="Event">
+        <table class="menu" style="text-align: left; border: none;" id="Event">
             <tr class="menu_tr_1">
                 <td rowspan="2" class="menu_td"
                     style="width:300px; padding-top: 15px; padding-bottom: 15px; background-color:rgb(82, 82, 82, 50%);">
@@ -164,7 +177,7 @@
 
                 <td colspan="2" class="menu_td" >
                     <div style="display:flex; flex-direction:column; padding-left: 10px;" >
-                            <span style="font-size:24px; color:#c9c443; font-family:futura_bold; text-align: left;">
+                            <span style="font-size:24px; color:#c9c443; text-align: left;">
                               Solar Flare: Alekhine Defense
                             </span>
                         <br>
@@ -195,6 +208,9 @@
             </tr>
 
         </table>
+
+        <br>
+        <br>
 
 
 	</body>
