@@ -1,6 +1,7 @@
 @font-face { font-family: IDK; src: url("font/ARCADE_I.TTF"); } 
 @font-face { font-family: futura; src: url("font/futura/futura-pt/FuturaCyrillicBook.ttf"); } 
-@font-face { font-family: futura_bold; src: url("font/futura/futura-pt/FuturaCyrillicDemi.ttf"); } 
+@font-face { font-family: AC7; src: url("font/ACES07_Regular.ttf"); } 
+
 fieldset
 {
     border: rgb(255, 255, 255) solid ;
@@ -16,8 +17,7 @@ fieldset
 
 body
 {
-    font-family: futura;
-    background-image: url("main\ screen\ ui/reducedagain.png");
+    font-family: AC7;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,6 +32,7 @@ body
 
     color: rgb(196, 196, 0);
     display: flex;
+    letter-spacing:1px;
 
     justify-content: left;
     align-items: center;
@@ -39,8 +40,12 @@ body
     margin-bottom: 0.5vw;
     margin-top: 0.5vw;
     text-align: left;
-      text-shadow:1px 1px 7px rgb(196, 196, 0), 1px 1px 7px rgb(148, 148, 0);
-        font-family: IDK, sans-serif;
+    font-family: AC7;
+}
+
+.hover_text:hover {
+    color: black;
+    background-color: rgb(196, 196, 0);
 }
 
 
@@ -48,19 +53,18 @@ body
 {
     background-image: url(main\ screen\ ui/textur.png);
     background-position: center;
-    width:  95% ;
     background-size: 8vw;
 
-    border-color: rgb(82, 82, 82);
+    width: 100%;
+    height: 100vh;
 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 
-    justify-content: left;
-    align-items: left;
-    margin: 5vw auto;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    border-radius: 5px;
-    
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -177,7 +181,9 @@ tr {
 
 .td_stat_info
 {
-    color: rgb(196, 196, 0);
+    width: 25%; 
+    padding-top:2vh; 
+    padding-bottom:1vh;
     text-align: left;
 
 }
@@ -202,10 +208,9 @@ tr {
 
 .Name
 {
-   color: rgb(196, 196, 0);
+    color: rgb(196, 196, 0);
     text-align: left;
-    font-size: 200%;
-    font-family: futura_bold;
+    text-decoration: none;
 }
 
 .text
