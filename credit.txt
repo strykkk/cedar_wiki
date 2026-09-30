@@ -1,6 +1,6 @@
 =============================================================
 |
-| Kedr wiki contributor 
+| KEDR wiki contributor 
 |
 =============================================================
 
@@ -41,6 +41,6 @@ Description             : Copyright (C)1997-2003 Yuji Adachi
 Support URL             : http://www.9031.com/
 =============================================================
 
-All assets used in this wiki belong to the Kedr dev team 
+All assets used in this wiki belong to the KEDR dev team 
 
-special thanks to the Cn wiki(https://wiki.biligame.com/kedrgame/首页) for letting us use their assets 
+special thanks to the Cn wiki(https://wiki.biligame.com/KEDRgame/首页) for letting us use their assets 
