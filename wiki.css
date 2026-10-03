@@ -181,8 +181,11 @@ tr {
 
 .td_stat_info
 {
-    width: 50%;  
+     
+    padding-top:2vh; 
+    padding-bottom:1vh;
     text-align: left;
+    color: rgb(196, 196, 0);
 
 }
 
@@ -345,6 +348,10 @@ tr {
 
 }
 
+.card-image{
+    height:175px;
+    position:relative;
+}
 
 .vehicle{
     position:absolute;
@@ -425,6 +432,7 @@ tr {
 }
 
 .vehicle-icon{
+    z-index: 10; 
     position: relative;
     width: 17%;
 
@@ -490,6 +498,7 @@ tr {
     width:200px;
     height:275px;
     position:relative;
+    z-index:1;
 }
 
 .Medal:hover{z-index:100}
@@ -597,4 +606,3 @@ th[role=columnheader]:not(.no-sort):hover:after {
 	visibility: visible;
 	opacity: 1;
 }
-
