@@ -1,82 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color:rgb(29, 29, 29);">
 	<head>
 		<meta charset="utf-8" />
 		<title>KEDR wiki</title>
 		<link rel="stylesheet" type="text/css" href="../../../wiki.css"/>
 		<script type="text/javascript" src="wiki.js" defer></script>
 		<meta http-equiv="X-UA-compatible" content="IE=edge" >
-        <link rel="icon" href="..\../../Codename_Cedar_Cover_Image.webp">
+        <link rel="icon" href="../../../Codename_Cedar_Cover_Image.webp">
 	</head>
 	<body>
-        <table class="menu" >
-        <tr class="menu_tr_1">
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="padding-left: 0.2vw;">Back to main page :</a></td>
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" href="../../../index.html">[Main page]</a></td>
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" href="../../Story_list.html">[Story List]</a><td>
-            <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" href="1-2_Deep.html">[Next Chapter]</a><td></td>
-        </tr>
+
+           <!-- SCREEN BORDER -->
+    <img src="../../../main screen ui/Boredr_Top.png" style="position: fixed; top: 0; left: 0; width: 100%;  padding: 0; border: 0; border-radius: 0; pointer-events: none; z-index: 5;">
+    <img src="../../../main screen ui/Border_Mid.png" style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; padding: 0; border: 0; border-radius: 0; pointer-events: none; z-index: 5;">
+    <img src="../../../main screen ui/Border_Bot.png" style="position: fixed; bottom: 0; left: 0; width: 100%;  padding: 0; border: 0; border-radius: 0; pointer-events: none; z-index: 5;">
+
+
+
+    <!-- TOP HEADER -->
+    <div style="padding: 4vw; width: 100%; box-sizing: border-box; padding-bottom: 0%;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 1vw;">
+            <a class="title_1 hover_text" style=" text-decoration: none; font-size: clamp(12px, 2.4vw, 35px); white-space: nowrap;" href="../../index.html">[ MAIN MENU ]</a>
+            <a class="title_1 hover_text" style=" text-decoration: none; font-size: clamp(12px, 2.4vw, 35px); white-space: nowrap;" href="../Story_list.html">[ STORY LIST ]</a>
+            <a class="title_1 hover_text" style=" text-decoration: none; font-size: clamp(12px, 2.4vw, 35px); white-space: nowrap;" href="1-2_Deep.html">[ NEXT CHAPTER ]</a>
+        </div>
+
+        <!-- DIVIDER -->
+        <div style="display: flex; justify-content: center; align-items: center; width: 100%; overflow: hidden;">
+            <a class="title_1" style="font-size: clamp(7px, 1.6vw, 24px); white-space: nowrap;">=============================================================================================</a>
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; width: 100%; overflow: hidden;">
+            <a class="title_1" style="font-size: clamp(7px, 1.6vw, 24px); white-space: nowrap; padding-left: 20%;">1-1 The first Light Dawn</a>
+        </div>
+    </div>
+
+    <table style="width: 100%;"><tr ><td style="width: 15%; vertical-align: top;">
+
+
+
+        <!--  -->
+        <table style="text-align: left; width: 100%;">
+            <tr><td>
+                    <a class="menu_sub hover_text" style="margin-left: 4vw; font-size: clamp(14px, 1.5vw, 30px); white-space: nowrap;">[ INFORMATION ]</a>
+            </td></tr>
         </table>
 
-		<table class="menu">
-            <tr class="menu_tr_1">
-            <td class="menu_td" style="font-size:30px; color:#c9c443; font-family:futura_bold;">1-1 The first Light Dawn</a></td>
-            </tr>
-		</table>
+        <!-- Character -->
+        <table style="text-align: left; width: 100%;">
+            <tr><td>
+                <a class="menu_sub hover_text" style="margin-left: 4vw; font-size: clamp(11px, 1.2vw, 24px); white-space: nowrap;" href="../../../character_list.html"                       >[ ] CHARACTER</a>
+            </td>            </tr>
 
-        <table class="menu">
-            <tr class="menu_tr_1" style="display:flex; flex-direction:column;">
-                <td class="menu_td">
-                    <span style="font-size:30px; color:#c9c443; font-family:futura_bold;">
-                        Characters
-                    </span>
-                </td>
+            <tr><td>
+                <a class="menu_sub " style="margin-left: 5vw; font-size: clamp(10px, 1vw, 20px); white-space: nowrap;" ><img src="../../Avatar/Avatar_MC.png" style="height: 5vw;"></a>
+            </td><td>
+                <a class="menu_sub " style="margin-left: 0px; font-size: clamp(10px, 1vw, 20px); white-space: nowrap;" href="../../../character/Sylvia_ODR/Sylvia_ODR.html"><img src="../../../character/Sylvia_ODR/icon.png" style="height: 5vw;"></a>
+            </td></tr>
 
-                <td style="flex-direction: row; padding-bottom: 20px;" >
-                    <div style="    display:flex;
-                                    flex-direction:row;
-                                    gap:15px;
-                                    justify-content:center;
-                                    align-items:flex-start;">
+             <tr><td>
+                <a class="menu_sub hover_text" style="margin-left: 6vw; font-size: clamp(10px, 2vw, 20px); white-space: nowrap;"   >Prapor</a>
+            </td><td>
+                 <a class="menu_sub hover_text" style="margin-left: 1.5vw; font-size: clamp(10px, 2vw, 20px); white-space: nowrap;" href="../../../character/Sylvia_ODR/Sylvia_ODR.html"  >Sylvia</a>
+            </td></tr>
 
-                        <a style="font-size:15px; color:#c9c443;">
-                            <img src="../../Avatar/Avatar_MC.png" style="height: 7vw;">
-                            <div class="overlay-text">Prapor</div>
-                        </a>
+            <tr><td>
+                <a class="menu_sub " style="margin-left: 5vw; font-size: clamp(10px, 1vw, 20px); white-space: nowrap;" href="../../../character/Julius_ODR/Julius_ODR.html">  <img src="../../../character/Julius_ODR/icon.png" style="height: 5vw;"></a>
+            </td></tr>
 
-                        <a style="font-size:15px; color:#c9c443; text-decoration: none;" href="../../../character/Julius_ODR/Julius_ODR.html">
-                            <img src="../../../character/Julius_ODR/icon.png" style="height: 7vw;">
-                            <div class="overlay-text">Julius</div>
-                        </a>
+             <tr><td>
+                <a class="menu_sub hover_text" style="margin-left: 6vw; font-size: clamp(10px, 2vw, 20px); white-space: nowrap;"href="../../../character/Julius_ODR/Julius_ODR.html">Julius</a>
+            </td></tr>
 
 
-                        <a style="font-size:15px; color:#c9c443; text-decoration: none;" href="../../../character/Erika_ODR/Erika_ODR.html">
-                            <img src="../../../character/Erika_ODR/icon.png" style="height: 7vw;">
-                            <div class="overlay-text">Erika</div>
-                        </a>
+            <tr><td>
+                <a class="menu_sub " style="margin-left: 5vw; font-size: clamp(10px, 1vw, 20px); white-space: nowrap;" href="../../../character/Erika_ODR/Erika_ODR.html">  <img src="../../../character/Erika_ODR/icon.png" style="height: 5vw;"></a>
+            </td></tr>
 
-                        <a style="font-size:15px; color:#c9c443; text-decoration: none;" href="../../../character/Hannah_ODR/Hannah_ODR.html">
-                            <img src="../../../character/Hannah_ODR/icon.png" style="height: 7vw;">
-                            <div class="overlay-text">Hannah</div>
-                        </a>
+             <tr><td>
+                <a class="menu_sub hover_text" style="margin-left: 6vw; font-size: clamp(10px, 2vw, 20px); white-space: nowrap;"href="../../../character/Erika_ODR/Erika_ODR.html">Erika</a>
+            </td></tr>
 
-                        <a style="font-size:15px; color:#c9c443; text-decoration: none;" href="../../../character/Sylvia_ODR/Sylvia_ODR.html">
-                            <img src="../../../character/Sylvia_ODR/icon.png" style="height: 7vw;">
-                            <div class="overlay-text">Sylvia</div>
-                        </a>
+            <tr><td>
+                <a class="menu_sub " style="margin-left: 5vw; font-size: clamp(10px, 1vw, 20px); white-space: nowrap;" href="../../../character/Hannah_ODR/Hannah_ODR.html">  <img src="../../../character/Hannah_ODR/icon.png" style="height: 5vw;"></a>
+            </td></tr>
 
+             <tr><td>
+                <a class="menu_sub hover_text" style="margin-left: 6vw; font-size: clamp(10px, 2vw, 20px); white-space: nowrap;"href="../../character/Hannah_ODR/Hannah_ODR.html">Hannah</a> <!-- WIFE -->
+            </td></tr>
 
-                        </a>
-
-                    </div>
-                </td>
-            </tr>
+            
         </table>
 
-       <table class="menu">
-            <tr class="menu_tr_1">
+        <br>
 
-                <td class="menu_td" style="justify-content: center; display: grid;">
+       
+    </td>
+     <td style="width: 100%; overflow-y:scroll; display:block; height: 70vh;  overflow-x: hidden; scrollbar-width: none;">
+        <div style="justify-content: center; display: grid;">
+
+
+
+
                     <div style="display:flex; flex-direction:column; text-align: left; font-size: 100%; padding: 5px; max-width:900px ; justify-content: center;" >
                             <a style="font-size:30px; color:#c9c443; font-family:futura_bold; text-align: center;">
                               Summary
@@ -755,6 +780,9 @@
                         <iframe width="840" height="472.5" style="border: 0px; " src="https://www.youtube.com/embed/HQLQH_wMNZs" ></iframe>
                           </div>
                         <br>
+                        
+
+                    </div>        
 </div>
                         
 
@@ -764,19 +792,17 @@
                         
 
                     </div>
-                </td>
-            </tr>
 
-        </table>
-        <table class="menu" >
-        <tr class="menu_tr_1" style="text-align: center;">
-            <td class="td_stat_info" style="width: 50%;"></td>
-            <td class="td_stat_info" style="width: 50%;" style="justify-content: center;"><a class="Name" style="text-decoration: none; " href="../../Story_list.html">[Story List]</a></td>
-            <td class="td_stat_info" style="width: 50%;"><a class="Name" style="text-decoration: none;" href="1-2_Deep.html">[Next Chapter]</a></td>
-            <td class="td_stat_info" style="width: 50%;"></td>
-        </tr>
-        </table>
 
+    </td>
+    </tr>
+    </table>
+
+
+
+        </div>
+
+    
 
 
 	</body>
