@@ -1,301 +1,316 @@
-
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>codename: cedar wiki</title>
-		<link rel="stylesheet" type="text/css" href="..\..\..\wiki.css"/>
-		<script type="text/javascript" src="wiki.js" defer></script>
-		<meta http-equiv="X-UA-compatible" content="IE=edge" >
+<html style="background-color:rgb(29, 29, 29);">
+    <head>
+        <meta charset="utf-8" />
+        <title>codename: cedar wiki</title>
+        <link rel="stylesheet" type="text/css" href="..\..\..\wiki.css"/>
+        <script type="text/javascript" src="wiki.js" defer></script>
+        <meta http-equiv="X-UA-compatible" content="IE=edge" >
         <link rel="icon" href="..\..\..\Codename_Cedar_Cover_Image.webp">
-	</head>
-	<body>
+    </head>
+    <body>
 
-        <table class="menu" >
-            <tr class="menu_tr_1">
-                <td class="td_stat_info" style="width: 25%;"><a class="Name" style="padding-left: 0.2vw;">Related pages :</a></td>
-                <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" href="../../../index.html">[Main page]</a></td>
-                <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" href="../../vehicle_list.html">[Vehicle]</a><td>
-                <td class="td_stat_info" style="width: 25%;"><a class="Name" style="text-decoration: none;" ></a><td></td>
-            </tr>
-        </table>
-        
-       		<table class="menu">
-            <tr class="menu_tr_1">
-                <td class="menu_td menu_td_1" style="width:50%; border: 0px; padding: 0px; text-align: left;">
+        <img src="../../../main screen ui/border.png" style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; padding: 0; border: 0; border-radius: 0; pointer-events: none; z-index: 5;">
 
-                    <table class="menu" style="border: 0px;">
-                        <tr class="menu_tr_1" style="font-size: 35px; font-weight: bold;">
-                            <td class="td_stat_info">BRM-1K</td>
-                            <td class="td_stat_info">TIER V [PAID EVENT]</td>
-                        </tr>
-                    </table>
+        <img src="IMG.png" style="position: fixed;align-items: center; top: 15%; left: 43%; width: 35vw; height: 35vw; padding: 0; border: 0; border-radius: 0; pointer-events: none; z-index: 4;">
 
-                <!-- Basic Information -->
-                    <table class="menu" style="border: 0px;">
+        <div style="padding: 4vw; width: 100%; box-sizing: border-box; padding-bottom: 0%; position: fixed; background-color:rgb(29, 29, 29); top: 0; left: 0;">
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 2vw;">
+                <a class="title_1 hover_text" style=" text-decoration: none; font-size: clamp(12px, 2.4vw, 35px); white-space: nowrap;" href="../../../index.html">[ MAIN MENU ]</a>
+                <a class="title_1 hover_text" style=" text-decoration: none; font-size: clamp(12px, 2.4vw, 35px); white-space: nowrap;" href="../Special.html">[ SPECIAL ]</a>
+                <a class="title_1 hover_text" style=" text-decoration: none; font-size: clamp(12px, 2.4vw, 35px); white-space: nowrap;" href="../../vehicle_list.html">[ VEHICLE ]</a>
+            </div>
 
-                    <tr class="menu_tr_1" style="font-weight:bold;">
-                        <td class="td_stat_info">[ BASIC INFORMATION ]</td>
+            <div style="display: flex; justify-content: center; align-items: center; width: 100%; overflow: hidden;">
+                <a class="menu_sub" style="font-size: clamp(11px, 2.5vw, 24px); white-space: nowrap;">=================================================================================================</a>
+            </div>
+        </div>
+
+        <!-- ARMOR STATS OVERLAY -->
+        <div style="position: fixed; top: 12vh; right: 2vw; z-index: 10;">
+
+            <br>
+            <br>
+            <div style="font-size: clamp(11px, 1.2vw, 16px); color: #c4c400; text-align: left; padding: 10px 15px; border-radius: 4px;">
+                <div style="font-weight: bold; margin-bottom: 10px;">[ ARMOR STATS ]</div>
+                <div>Front Armor Info</div>
+                <div>[] Frontal Armor: 21</div>
+                <div>[] Coverage Angle: 120°</div>
+                <div>[] Damage Reduction: 37.5%</div>
+                <br>
+                <div>Side Armor Info</div>
+                <div>[]  Side Armor: 9</div>
+                <div>[] Coverage Angle: 90°</div>
+                <div>[] Damage Reduction: 26.5%</div>
+                <br>
+                <div>Back Armor Info</div>
+                <div>[]  Back Armor: 9</div>
+                <div>[] Coverage Angle: 60°</div>
+                <div>[] Damage Reduction: 26.5%</div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div style="text-align: left; width: 43%; border: none">
+            <br>
+
+            <div>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 2vw;">BRM-1K</a></td>
+                        <td class="td_stat_info"><a class="Name" style=" font-size: 2vw;">TIER V [PAID EVENT]</a></td>
                     </tr>
+                </table>
 
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Driving System</td>
-                            <td class="td_stat_info">Tracked</td>
-                        </tr>
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Type</td>
-                            <td class="td_stat_info">Medium</td>
-                        </tr>
-                        
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Cost</td>
-                            <td class="td_stat_info">-</td>
-                        </tr>
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Country of origin</td>
-                            <td class="td_stat_info">Ostenheim Democratic Republic</td>
-                        </tr>
-
-                    </table>
-
-                <!-- Basic Stats -->
-                    <table class="menu" style="border: 0px; margin-top:25px">
-
-                        <tr class="menu_tr_1" style="font-weight:bold;">
-                            <td class="td_stat_info">[ BASIC STATS ]</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Health</td>
-                            <td class="td_stat_info">30560</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Defense</td>
-                            <td class="td_stat_info">600</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Movement Speed</td>
-                            <td class="td_stat_info">4.85</td>
-                        </tr>
-
-
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Passenger Capacity</td>
-                            <td class="td_stat_info">5</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Amphibious Mode</td>
-                            <td class="td_stat_info">Yes</td>
-                        </tr>
-                    </table>
-
-                <!-- Armor Stats -->
-                    <table class="menu" style="border: 0px; margin-top:25px">
-
-                        <tr class="menu_tr_1" style="font-weight:bold;">
-                            <td class="td_stat_info">[ ARMOR STATS ]</td>
-                        </tr>
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info" style="font-weight: bold;">&nbsp; Front Armor Info</td>
-                            <td class="td_stat_info"></td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Frontal Armor</td>
-                            <td class="td_stat_info">21</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Coverage Angle</td>
-                            <td class="td_stat_info">120°</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Damage Reduction</td>
-                            <td class="td_stat_info">37.5%</td>
-                        </tr>
-
-
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;</td>
-                            <td class="td_stat_info"></td>
-                        </tr>
-
-
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info" style="font-weight: bold;">&nbsp; Side Armor Info</td>
-                            <td class="td_stat_info"></td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Side Armor</td>
-                            <td class="td_stat_info">11</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Coverage Angle</td>
-                            <td class="td_stat_info">90°</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Damage Reduction</td>
-                            <td class="td_stat_info">26.5%</td>
-                        </tr>
-
-
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;</td>
-                            <td class="td_stat_info"></td>
-                        </tr>
-
-
-
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info" style="font-weight: bold;">&nbsp; Back Armor Info</td>
-                            <td class="td_stat_info"></td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Back Armor</td>
-                            <td class="td_stat_info">11</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Coverage Angle</td>
-                            <td class="td_stat_info">60°</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp;&nbsp;&nbsp;  Damage Reduction</td>
-                            <td class="td_stat_info">26.5%</td>
-                        </tr>
-
-                    </table>
-
-                <!-- Gun Stats -->
-                    <table class="menu" style="border: 0px; margin-top:25px">
-                    <tr class="menu_tr_1" style="font-weight:bold;">
-                        <td class="td_stat_info">[GUN STATS]</td>
-                        <td class="td_stat_info"></td>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[ BASIC INFORMATION ]</a></td>
+                        <td class="td_stat_info"><a class="Name" style=" font-size: 1.2vw;"></a></td>
                     </tr>
+                </table>
 
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Damage</td>
-                            <td class="td_stat_info">15095</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Ammo Capacity</td>
-                            <td class="td_stat_info">1</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Reload Time</td>
-                            <td class="td_stat_info">5.8</td>
-                        </tr>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Driving System</a></td>
+                        <td class="td_stat_info"><a class="Name" style=" font-size: 1.2vw;">Tracked</a></td>
+                    </tr>
+                </table>
 
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Type</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">IFV</a></td>
+                    </tr>
+                </table>
+                
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Cost</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">-</a></td>
+                    </tr>
+                </table>
 
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Origin</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">Osterheim Democratic Republic</a></td>
+                    </tr>
+                </table>
+            </div>
 
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Armour Penetration</td>
-                            <td class="td_stat_info">30</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Rate of Fire</td>
-                            <td class="td_stat_info">0.8</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Firing Method</td>
-                            <td class="td_stat_info">Direct Attack</td>
-                        </tr>
+            <br>
 
+            <div>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[ BASIC STATS ]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;"></a></td>
+                    </tr>
+                </table>
 
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Health</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">30560</a></td>
+                    </tr>
+                </table>
 
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">&nbsp; Hit In Range</td>
-                            <td class="td_stat_info">95 / 92 / 88 / 84 / 76 / 72</td>
-                        </tr>
-                    </table>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Defense</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">600</a></td>
+                    </tr>
+                </table>
+                
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;"> Movement Speed</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">4.85</a></td>
+                    </tr>
+                </table>
 
-                    
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Passenger Capacity</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">5</a></td>
+                    </tr>
+                </table>
 
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Amphibious Mode</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">Yes</a></td>
+                    </tr>
+                </table>
 
-                </td>
-                <td class="menu_td menu_td_1 IMG_text" style="width:50%; border: 0px; ">
-                    <table class="menu" style="border: 0px;">
-                        <tr>
-							<div style="height: 100%; background-image: url('IMG.png');" class="IMG_CH">
-                            </div>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+            </div>
 
-        
-        <div class="menu_element" style="width: 97%;">
+            <br>
 
-            <table class="menu" style="margin-top: 0px; width: 100%; margin: 0px;">
-            <tr class="menu_tr_1">
-                <td class="menu_td menu_td_1" style="width:10%; border-width: 0px;" ><div style="height: 6vw; background-image: url('SKILL.png'); width: 100%;" class="IMG_CH"></td>
-                <td class="menu_td menu_td_1" style="width:90%; border-width: 0px;">
-                    <table class="menu" style="border: 0px;  width: 100%; margin: 0px;" id="20">
-                        <tbody style="width: max-content;">
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info" style="width:20%">Name</td>
-                            <td class="td_stat_info" style="width:80%">PSNR-5K Radar</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">Cooldown Time</td>
-                            <td class="td_stat_info">25s</td>
-                        </tr>
-                        <tr class="menu_tr_1">
-                            <td class="td_stat_info">Effect</td>
-                            <td class="td_stat_info">Activates radar, reduces own movement speed by 30%, increases detection range by 2 tiles, increases detection strength by 50%, and increases damage taken by enemy units within detection range by 43% for 8 seconds.</td>
-                        </tr>
+            <div>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[ GUN STATS ]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;"></a></td>
+                    </tr>
+                </table>
 
-                        </tbody>
-                    </table>
-</table>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Damage</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">15095</a></td>
+                    </tr>
+                </table>
 
-<br>
-                    <table class="menu" style="border: 0px;  width: 100%; margin: 0px; font-size: 150%; " id="20">
-                        <tbody style="width: max-content;">
-                            <tr class="menu_tr_1" style="font-size: 80%;">
-                                <td class="menu_td menu_td_1" style="width:100%"><a class="menu_sub" >Parts</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Ammo Capacity</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">1</a></td>
+                    </tr>
+                </table>
+                
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Reload Time/a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">5.8</a></td>
+                    </tr>
+                </table>
 
-                    <table class="menu" style="border: 0px;  width: 100%; margin: 0px; font-size: 150%; " id="20">
-                        <tbody style="width: max-content;">
-                            <tr class="menu_tr_1" style="font-size: 80%;">
-                                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Name</a></td>
-                                <td class="menu_td menu_td_1" style="width:20%"><a class="menu_sub" >Cost</a></td>
-                                <td class="menu_td menu_td_1" style="width:60%"><a class="menu_sub" >Effect</a></td>
-                            </tr>
-                            <tr class="menu_tr_1">
-                                <td class="menu_td text">[Placeholder]</td>
-                                <td class="menu_td text"></td>
-                                <td class="menu_td text">-</td>
-                            </tr>
-                            <tr class="menu_tr_1">
-                                <td class="menu_td text">[Placeholder]</td>
-                                <td class="menu_td text"></td>
-                                <td class="menu_td text">-</td>
-                            </tr>
-                            <tr class="menu_tr_1">
-                                <td class="menu_td text">[Placeholder]</td>
-                                <td class="menu_td text"></td>
-                                <td class="menu_td text">-</td>
-                            </tr>
-                            <tr class="menu_tr_1">
-                                <td class="menu_td text">[Placeholder]</td>
-                                <td class="menu_td text"></td>
-                                <td class="menu_td text">-</td>
-                            </tr>
-                            <tr class="menu_tr_1">
-                                <td class="menu_td text">[Placeholder]</td>
-                                <td class="menu_td text"></td>
-                                <td class="menu_td text">-</td>
-                            </tr>
-                        </tbody>
-                    </table>
-        
-	</body>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Armour Penetration</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">30</a></td>
+                    </tr>
+                </table>
+
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Rate of Fire</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">0.8</a></td>
+                    </tr>
+                </table>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Firing Method</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">Smoothbore Gun / Machine gun</a></td>
+                    </tr>
+                </table>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">Hit In Range</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">95 / 92 / 88 / 84 / 76 / 72</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <br>
+
+                        <div>
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[ UPGRADE PARTS ]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;"></a></td>
+                    </tr>
+                </table>
+
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[ NAME ]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 2vw; font-size: 1.2vw;">[ COST ]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">[ EFFECT ]</a></td>
+                    </tr>
+                </table>
+
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[Placeholder]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 2vw; font-size: 1.2vw;">-</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">-</a></td>
+                    </tr>
+                </table>
+                
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[Placeholder]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 2vw; font-size: 1.2vw;">-</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">-</a></td>
+                    </tr>
+                </table>
+
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[Placeholder]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 2vw; font-size: 1.2vw;">-</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">-</a></td>
+                    </tr>
+                </table>
+
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[Placeholder]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 2vw; font-size: 1.2vw;">-</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">-</a></td>
+                    </tr>
+                </table>
+
+                <table class="menu" style="border: 0px;">
+                    <tr class="menu_tr_1">
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 4vw; font-size: 1.2vw;">[Placeholder]</a></td>
+                        <td class="td_stat_info"><a class="Name" style="margin-left: 2vw; font-size: 1.2vw;">-</a></td>
+                        <td class="td_stat_info"><a class="Name" style="font-size: 1.2vw;">-</a></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div style="position: fixed;bottom: 5vh; right: 2vw; z-index: 4; width: 55%;">
+            <table class="menu" style="border: 0px; border: 0px;  width: 100%; margin: 0px;" id="20">
+                <tbody style="width: max-content;">
+                    <tr class="menu_tr_1">
+                        <td class="Name" style="font-size: 1.5vw; width: 30%;">[ ACTIVE SKILL ]</td>
+                        <td class="Name" style="font-size: 1.5vw; width: 70%"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="menu" style="margin-top: 0px; width: 100%; margin: 0px; border: none;">
+                <tr class="menu_tr_1">
+                    <td class="menu_td menu_td_1" style="width:10%; border-width: 0px;" >
+                        <div style="height: 5vw; background-image: url('SKILL.png'); width: 100%;" class="IMG_CH">  
+                    </td>
+                    <td class="menu_td menu_td_1" style="width:85%; border-width: 0px;">
+                        <table class="menu" style="border: 0px; border: 0px;  width: 100%; margin: 0px;" id="20">
+                            <tbody style="width: max-content;">
+                                <tr class="menu_tr_1">
+                                    <td class="Name" style="font-size: 1.2vw; width: 30%;">Name</td>
+                                    <td class="Name" style="font-size: 1.2vw; width: 70%">PSNR-5K Radar</td>
+                                </tr>
+
+                                <tr class="menu_tr_1">
+                                    <td class="Name" style="font-size: 1.2vw; width: 30%;">Cooldown Time</td>
+                                    <td class="Name" style="font-size: 1.2vw; width: 70%">25s</td>
+                                </tr>
+
+                                <tr class="menu_tr_1">
+                                    <td class="Name" style="font-size: 1.2vw; width: 30%;">Effect</td>
+                                    <td class="Name" style="font-size: 1.2vw; width: 70%">Activates radar, reduces own movement speed by 30%, increases detection range by 2 tiles, increases detection strength by 50%, and increases damage taken by enemy units within detection range by 43% for 8 seconds.</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
 </html>
